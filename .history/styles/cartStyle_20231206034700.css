@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --light-bg-grey:#8b8b8b;
+    --cyan-blue:#118822
+}
+body{
+    background:white;
+}
+.flex-disp{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+section{
+    width:70%;
+    height:35%;
+    background:
+}

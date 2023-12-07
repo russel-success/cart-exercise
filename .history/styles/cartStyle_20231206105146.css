@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --light-bg-grey:rgb(245, 245, 245);
+    --mid-bg-grey:rgb(236, 236, 236);
+    --cyan-blue:rgb(0, 145, 114);
+}
+body{
+    background:white;
+    font-family:'Quicksand',sans-serif;
+}
+.flex-disp{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cart-section{
+    visibility: visible;
+}
+.pdt-section{
+    flex-direction:row;
+}
+.pdt-container{
+    width:15%;
+    height:50%;
+    text-align: center;
+    justify-content:space-between;
+    background:var(--light-bg-grey);
+    margin:20px;
+    border-radius:20px;
+}
+.pdt-container img{
+    width:100%;
+    background:var(--mid-bg-grey);
+    margin-bottom:20px;
+    border-radius:10px;
+}
+h2{
+    font-size:0.9em;
+    font-weight: 700;
+}
+.heading{
+    text-align:center;
+    margin:30px auto;
+}
+button{
+    padding:10px 20px;
+    margin:20px auto;
+    background:var(--cyan-blue);
+    border:none;
+    color:white;
+    font-family:'Quicksand',sans-serif;
+    border-radius:5px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    font-weight:600;
+}
+button span{
+    margin-
+}
+.cart-section{
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    margin:60px 0;
+}
+.cart-container{
+    width:50%;
+    background:var(--light-bg-grey);
+    border-radius:10px;
+    box-sizing: border-box;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-start;
+    padding:20px;
+}
+.img-part{
+    width:30%;
+}
+.det-part{
+    width:80%;
+    justify-content:space-between;
+    box-sizing:border-box;
+}
+.delete{
+    align-self: flex-end;
+    justify-self:center;
+    margin-right:30px;
+    margin-top:40px;
+    color:var(--cyan-blue);
+    cursor:pointer;
+}
+.delete:active{
+    color:var(--mid-bg-grey);
+
+}
+.cart-part img{
+    width:100%;
+    background:var(--mid-bg-grey);
+    border-radius:10px;
+}
+.img-part{
+    margin-right:30px;
+}
+
+@media screen and(max-width:992px) {
+    .pdt-section{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
