@@ -22,6 +22,7 @@
 .heading{
     text-align:center;
     margin:30px 10px;
+    color:var(--cyan-blue);
 }
 .section{
     width:35%;
@@ -40,11 +41,11 @@
     box-sizing:border-box;
 }
 .small-imgs:hover{
-    border:2px solid var(--cyan-blue);
+    border:4px solid var(--cyan-blue);
     opacity:0.9;
 }
 .display-img{
-    border:2px solid var(--cyan-blue);
+    border:2.5px solid var(--cyan-blue);
     opacity:0.9;
 }
 .small-imgs img{

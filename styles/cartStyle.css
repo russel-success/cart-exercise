@@ -50,9 +50,17 @@ h2{
 p{
     color:var(--cyan-blue);
 }
+.link-to-pdt{
+    color:var(--cyan-blue);
+    text-align:center;
+    margin:0 auto;
+    text-decoration: none;
+    margin-bottom:60px;
+}
 .heading{
     text-align:center;
     margin:30px auto;
+    color:var(--cyan-blue);
 }
 button{
     width:70%;
